@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión - ElectroHub</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+   
+</head>
+<body>
+    <!-- Navbar (igual que en las páginas anteriores) -->
+    <nav class="navbar navbar-expand-lg sticky-top custom-navbar">
+
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="./Pic/logo.png" alt="ElectroHub Logo" style="height: 40px; margin-right: 10px;">
+                <span class="fw-bold">ElectroHub</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                            Productos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="telefonos.html">Teléfonos</a></li>
+                            <li><a class="dropdown-item" href="laptops.html">Laptops</a></li>
+                            <li><a class="dropdown-item" href="accesorios.html">Accesorios</a></li>
+                            <li><a class="dropdown-item" href="audio.html">Audio y Sonido</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicio.html">Servicio al Cliente</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <a href="cuenta.html" class="btn btn-outline-primary me-2">
+                        <i class="bi bi-person-fill"></i> Iniciar sesión
+                    </a>
+                    <a href="carrito.html" class="btn btn-primary">
+                        <i class="bi bi-cart-fill"></i> Carrito
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+        <div class="row login-container">
+            <!-- Formulario de Login -->
+            <div class="col-lg-6 login-form">
+                <h1 class="mb-3">Iniciar Sesión</h1>
+                <p class="text-muted mb-4">Ingresa tu correo electrónico y contraseña para acceder a tu cuenta</p>
+                
+                <form id="loginForm">
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Correo electrónico</label>
+                        <input type="email" class="form-control py-2" id="email" required>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control py-2" id="password" required>
+                        <div class="text-end mt-2">
+                            <a href="forgot-password.html" class="text-decoration-none">¿Olvidaste tu contraseña?</a>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="remember">
+                        <label class="form-check-label" for="remember">Recordar mi cuenta</label>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary w-100 py-2 mb-4">Iniciar Sesión</button>
+                    
+                    <div class="divider">
+                        <span class="divider-text">O inicia sesión con</span>
+                    </div>
+                    
+                    <div class="row g-2 mb-4">
+                        <div class="col-md-6">
+                            <button type="button" class="btn btn-outline-secondary w-100 social-btn">
+                                <i class="bi bi-google"></i> Google
+                            </button>
+                        </div>
+                        <div class="col-md-6">
+                            <button type="button" class="btn btn-outline-primary w-100 social-btn">
+                                <i class="bi bi-facebook"></i> Facebook
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="text-center">
+                        ¿No tienes una cuenta? <a href="register.html" class="text-decoration-none">Regístrate</a>
+                    </div>
+                </form>
+            </div>
+            
+            <!-- Beneficios -->
+            <div class="col-lg-6 login-benefits">
+                <h2 class="mb-4">Beneficios de tu cuenta</h2>
+                
+                <div class="d-flex align-items-start benefit-item">
+                    <i class="bi bi-check-circle-fill benefit-icon"></i>
+                    <div>
+                        <h5 class="mb-1">Historial de pedidos</h5>
+                        <p class="text-muted small">Revisa y haz seguimiento a todos tus pedidos anteriores</p>
+                    </div>
+                </div>
+                
+                <div class="d-flex align-items-start benefit-item">
+                    <i class="bi bi-check-circle-fill benefit-icon"></i>
+                    <div>
+                        <h5 class="mb-1">Listas de deseos</h5>
+                        <p class="text-muted small">Guarda tus productos favoritos para comprarlos después</p>
+                    </div>
+                </div>
+                
+                <div class="d-flex align-items-start benefit-item">
+                    <i class="bi bi-check-circle-fill benefit-icon"></i>
+                    <div>
+                        <h5 class="mb-1">Ofertas exclusivas</h5>
+                        <p class="text-muted small">Recibe descuentos especiales para miembros</p>
+                    </div>
+                </div>
+                
+                <div class="d-flex align-items-start benefit-item">
+                    <i class="bi bi-check-circle-fill benefit-icon"></i>
+                    <div>
+                        <h5 class="mb-1">Compra más rápida</h5>
+                        <p class="text-muted small">Guarda tus datos para un checkout express</p>
+                    </div>
+                </div>
+                
+                <div class="d-flex align-items-start benefit-item">
+                    <i class="bi bi-check-circle-fill benefit-icon"></i>
+                    <div>
+                        <h5 class="mb-1">Recomendaciones</h5>
+                        <p class="text-muted small">Productos personalizados según tus gustos</p>
+                    </div>
+                </div>
+                
+                <div class="secure-login">
+                    <div class="d-flex">
+                        <i class="bi bi-shield-check" style="font-size: 2rem; color: #0d6efd; margin-right: 1rem;"></i>
+                        <div>
+                            <h5 class="mb-1">Tu seguridad es nuestra prioridad</h5>
+                            <p class="small text-muted mb-0">Protegemos tus datos con cifrado de 256-bit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+  <!-- Footer -->
+    <footer class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h3>Contacto</h3>
+                    <p><i class="bi bi-envelope-fill"></i> Email: info@electrohub.com</p>
+                    <p><i class="bi bi-telephone-fill"></i> Teléfono: +1 234 567 890</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h3>Servicio al cliente</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="carrito.html" class="text-decoration-none"><i class="bi bi-clock-history"></i> Historial de compras</a></li>
+                        <li><a href="servicio.html" class="text-decoration-none"><i class="bi bi-shield-check"></i> Garantías</a></li>
+                        <li><a href="servicio.html" class="text-decoration-none"><i class="bi bi-question-circle"></i> Preguntas frecuentes</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h3>Síguenos</h3>
+                    <div class="social-icons">
+                        <a href="https://es-la.facebook.com/" class="text-decoration-none me-3"><i class="bi bi-facebook social-icon"></i></a>
+                        <a href="https://www.instagram.com/" class="text-decoration-none me-3"><i class="bi bi-instagram social-icon"></i></a>
+                        <a href="https://x.com/X." class="text-decoration-none"><i class="bi bi-twitter-x social-icon"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 ElectroHub. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
+   

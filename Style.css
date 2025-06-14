@@ -1,0 +1,256 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0C1018
+;
+}
+
+/* Menú con nuevo color de fondo */
+.navbar, .main-menu {
+    background-color: #0C1018 !important;
+    
+}
+/* Marca y enlaces del navbar */
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+    color: #ecf0f1 !important; /* Texto claro */
+}
+
+/* Hover y estado activo */
+.custom-navbar .nav-link:hover,
+.custom-navbar .nav-link.active {
+    color: #3498db !important; /* Azul para destacar */
+}
+
+/* Botón hamburguesa (modo móvil) */
+.custom-navbar .navbar-toggler {
+    border-color: #ecf0f1;
+}
+
+.custom-navbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28236, 240, 241, 1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Botones de la derecha */
+.custom-navbar .btn-outline-primary {
+    border-color: #ecf0f1;
+    color: #ecf0f1;
+}
+
+.custom-navbar .btn-outline-primary:hover {
+    background-color: #3498db;
+    border-color: #3498db;
+    color: white;
+}
+
+.custom-navbar .btn-primary {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+.custom-navbar .btn-primary:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
+/* Carrusel */
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+.carousel-img {
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.logo-img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+/*  carrito */
+        .cart-item {
+            transition: all 0.3s ease;
+        }
+        .cart-item:hover {
+            background-color: #f8f9fa;
+        }
+        .quantity-selector .btn {
+            width: 38px;
+        }
+        .quantity-selector input {
+            width: 60px;
+            text-align: center;
+        }
+        .cart-summary {
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        .summary-row {
+            border-bottom: 1px solid #dee2e6;
+            padding: 10px 0;
+        }
+        .summary-row.total {
+            border-bottom: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        .saved-item {
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+        .product-img {
+            max-height: 120px;
+            object-fit: contain;
+        }
+        .payment-icon {
+            height: 30px;
+            margin-right: 10px;
+        }
+        .promo-input {
+            flex-grow: 1;
+            margin-right: 10px;
+        }
+        .empty-cart-icon {
+            font-size: 5rem;
+            color: #6c757d;
+            margin-bottom: 20px;
+        }
+
+/* Footer */
+footer {
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+    margin-top: 2rem;
+}
+
+.social-icon {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color: #0475de;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #0d6efd;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.sidebar li {
+    margin-bottom: 0.5rem;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #555;
+    transition: color 0.2s;
+}
+
+.sidebar a:hover {
+    color: #0d6efd;
+}
+
+/* Producto */
+.product-card {
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin-bottom: 20px;
+    height: 100%;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.product-img {
+    height: 200px;
+    object-fit: contain;
+    padding: 20px;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #198754;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #6c757d;
+    font-size: 1rem;
+}
+
+.product-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #dc3545;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+}
+
+/* Botones, Wishlist */
+.wishlist-btn {
+    display: block;
+    margin-top: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.featured {
+    border: 2px solid #ffc107;
+}
+
+/* Filtrado */
+.filter-bar, .filter-section {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+/* Sección */
+.section-title {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .sidebar {
+        margin-bottom: 2rem;
+    }
+
+    .product-img {
+        height: 150px;
+    }
+}
+

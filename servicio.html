@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicio al Cliente - ElectroHub</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+   
+</head>
+<body>
+    <!-- Navbar (igual que en las páginas anteriores) -->
+    <nav class="navbar navbar-expand-lg sticky-top custom-navbar">
+
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="./Pic/logo.png" alt="ElectroHub Logo" style="height: 40px; margin-right: 10px;">
+                <span class="fw-bold">ElectroHub</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                            Productos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="telefonos.html">Teléfonos</a></li>
+                            <li><a class="dropdown-item" href="laptops.html">Laptops</a></li>
+                            <li><a class="dropdown-item" href="accesorios.html">Accesorios</a></li>
+                            <li><a class="dropdown-item" href="audio.html">Audio y Sonido</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="servicio.html">Servicio al Cliente</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <a href="cuenta.html" class="btn btn-outline-primary me-2">
+                        <i class="bi bi-person-fill"></i> Iniciar sesión
+                    </a>
+                    <a href="carrito.html" class="btn btn-primary">
+                        <i class="bi bi-cart-fill"></i> Carrito
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+        <div class="text-center mb-5">
+            <h1 class="mb-3">Servicio al Cliente</h1>
+            <p class="lead text-muted">Estamos aquí para ayudarte en lo que necesites</p>
+        </div>
+
+        <!-- Tarjetas de Servicio -->
+        <div class="row g-4 mb-5">
+            <div class="col-md-6 col-lg-3">
+                <div class="card service-card h-100">
+                    <div class="card-body text-center">
+                        <div class="service-icon">
+                            <i class="bi bi-shield-check"></i>
+                        </div>
+                        <h3 class="card-title">Garantías y Devoluciones</h3>
+                        <p class="card-text">Todos nuestros productos cuentan con garantía de fábrica. Consulta nuestras políticas de devolución y cambios.</p>
+                        <a href="https://interferenciales.com.mx/aplicacion-de-garantia" class="btn btn-link">Más información <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card service-card h-100">
+                    <div class="card-body text-center">
+                        <div class="service-icon">
+                            <i class="bi bi-truck"></i>
+                        </div>
+                        <h3 class="card-title">Envíos y Seguimiento</h3>
+                        <p class="card-text">Realiza el seguimiento de tu pedido y consulta los tiempos de entrega estimados.</p>
+                        <a href="https://www.estafeta.com/rastrear-envio" class="btn btn-link">Rastrear pedido <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card service-card h-100">
+                    <div class="card-body text-center">
+                        <div class="service-icon">
+                            <i class="bi bi-question-circle"></i>
+                        </div>
+                        <h3 class="card-title">Preguntas Frecuentes</h3>
+                        <p class="card-text">Encuentra respuestas a las preguntas más comunes sobre nuestros productos y servicios.</p>
+                        <a href="contacto.html" class="btn btn-link">Ver preguntas <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card service-card h-100">
+                    <div class="card-body text-center">
+                        <div class="service-icon">
+                            <i class="bi bi-headset"></i>
+                        </div>
+                        <h3 class="card-title">Soporte Técnico</h3>
+                        <p class="card-text">¿Necesitas ayuda con tu dispositivo? Nuestro equipo técnico está listo para ayudarte.</p>
+                        <a href="contacto.html" class="btn btn-link">Contactar soporte <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Opciones de Contacto -->
+        <div class="row g-4 mb-5">
+            <div class="col-md-4">
+                <div class="service-option text-center">
+                    <i class="bi bi-telephone-fill service-icon"></i>
+                    <h2>Atención Telefónica</h2>
+                    <p class="text-muted">Línea directa disponible de lunes a viernes de 9:00 a 18:00 hrs.</p>
+                    <div class="phone-number">800 123 4567</div>
+                    <a href="tel:8001234567" class="btn btn-outline-primary">Llamar ahora</a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="service-option text-center">
+                    <i class="bi bi-chat-dots-fill service-icon"></i>
+                    <h2>Chat en Vivo</h2>
+                    <p class="text-muted">Conéctate con uno de nuestros agentes para resolver tus dudas al instante.</p>
+                    <button class="btn btn-primary chat-button">Iniciar chat</button>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="service-option text-center">
+                    <i class="bi bi-envelope-fill service-icon"></i>
+                    <h2>Correo Electrónico</h2>
+                    <p class="text-muted">Escríbenos y te responderemos en un plazo máximo de 24 horas.</p>
+                    <a href="mailto:servicio@electrohub.com" class="btn btn-outline-secondary">servicio@electrohub.com</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Centro de Ayuda -->
+        <div class="text-center mb-4">
+            <h2>Centro de Ayuda</h2>
+            <p class="text-muted">Encuentra toda la información que necesitas</p>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="help-topic">
+                    <h3 class="mb-3"><i class="bi bi-file-earmark-text"></i> Guías de Usuario</h3>
+                    <ul>
+                        <li><a href="https://www.proprofskb.com/blog/product-user-manual/">Manuales de productos</a></li>
+                        <li><a href="https://www.madcapsoftware.com/blog/installation-guide/">Guías de instalación</a></li>
+                        <li><a href="https://www.ispring.es/blog/como-hacer-video-tutorial">Videos tutoriales</a></li>
+                        <li><a href="https://es.wikipedia.org/wiki/Especificaciones_t%C3%A9cnicas#:~:text=Las%20especificaciones%20t%C3%A9cnicas%20son%20los,de%20estudios%2C%20fabricaci%C3%B3n%20de%20equipos.">Especificaciones técnicas</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="help-topic">
+                    <h3 class="mb-3"><i class="bi bi-file-earmark-lock"></i> Políticas</h3>
+                    <ul>
+                        <li><a href="https://www.iubenda.com/es/help/37616-que-son-los-terminos-y-condiciones-y-para-que-sirven">Términos y condiciones</a></li>
+                        <li><a href="https://www.docusign.com/es-mx/blog/desarrolladores/politica-de-privacidad">Política de privacidad</a></li>
+                        <li><a href="https://consumidor.ftc.gov/articulos/garantias-extendidas-y-contratos-de-servicio">Garantías extendidas</a></li>
+                        <li><a href="https://blog.hubspot.es/sales/comercio-electronico">Política de devoluciones</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="help-topic">
+                    <h3 class="mb-3"><i class="bi bi-tools"></i> Reparaciones</h3>
+                    <ul>
+                        <li><a href="https://www.truper.com/centros-de-servicio">Centros de servicio autorizado</a></li>
+                        <li><a href="https://www.truper.com/centros-de-servicio">Cotización de reparaciones</a></li>
+                        <li><a href="https://www.truper.com/centros-de-servicio">Estado de reparación</a></li>
+                        <li><a href="https://www.truper.com/centros-de-servicio">Preguntas sobre garantía</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+<!-- Footer -->
+    <footer class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h3>Contacto</h3>
+                    <p><i class="bi bi-envelope-fill"></i> Email: info@electrohub.com</p>
+                    <p><i class="bi bi-telephone-fill"></i> Teléfono: +1 234 567 890</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h3>Servicio al cliente</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="carrito.html" class="text-decoration-none"><i class="bi bi-clock-history"></i> Historial de compras</a></li>
+                        <li><a href="servicio.html" class="text-decoration-none"><i class="bi bi-shield-check"></i> Garantías</a></li>
+                        <li><a href="servicio.html" class="text-decoration-none"><i class="bi bi-question-circle"></i> Preguntas frecuentes</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h3>Síguenos</h3>
+                    <div class="social-icons">
+                        <a href="https://es-la.facebook.com/" class="text-decoration-none me-3"><i class="bi bi-facebook social-icon"></i></a>
+                        <a href="https://www.instagram.com/" class="text-decoration-none me-3"><i class="bi bi-instagram social-icon"></i></a>
+                        <a href="https://x.com/X." class="text-decoration-none"><i class="bi bi-twitter-x social-icon"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 ElectroHub. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+{
+  "laptops": [
+    {
+      "id": "lap001",
+      "nombre": "Cumputadora Dell Inspiron",
+      "precio": 13999,
+      "imagen": "pic/pcc.avif"
+    },
+    {
+      "id": "lap002",
+      "nombre": "Laptop HP Pavilion",
+      "precio": 12499,
+      "imagen": "pic/laptop1.webp"
+    }
+  ],
+  "telefonos": [
+    {
+      "id": "tel001",
+      "nombre": "Smartphone Galaxy A54",
+      "precio": 5999,
+      "imagen": "pic/samsung.jpg"
+    },
+    {
+      "id": "tel002",
+      "nombre": "iPhone 15 128GB",
+      "precio": 10999,
+      "imagen": "pic/iphone15.webp"
+    }
+  ],
+  "audio": [
+    {
+      "id": "aud001",
+      "nombre": "Audífonos Sony WH-1000XM5",
+      "precio": 7299,
+      "imagen": "pic/sony.jpg"
+    },
+    {
+      "id": "aud002",
+      "nombre": "Bocina JBL Charge 5",
+      "precio": 3999,
+      "imagen": "pic/bocina.webp"
+    }
+  ],
+  "accesorios": [
+    {
+      "id": "acc001",
+      "nombre": "Mouse Inalámbrico Logitech",
+      "precio": 499,
+      "imagen": "pic/mouse.webp"
+    },
+    {
+      "id": "acc002",
+      "nombre": "Teclado Mecánico Redragon",
+      "precio": 1299,
+      "imagen": "pic/teclado1.webp"
+    }
+  ]
+}
